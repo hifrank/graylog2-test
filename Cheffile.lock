@@ -1,0 +1,20 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.1.12)
+    apt (1.4.6)
+    graylog2 (0.0.5)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rvm
+  ref: master
+  sha: 6411f1194c2f57dc2578e87d9ca89199561512dd
+  specs:
+    rvm (0.9.1)
+
+DEPENDENCIES
+  graylog2 (>= 0)
+  rvm (>= 0)
+
