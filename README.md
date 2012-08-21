@@ -1,4 +1,4 @@
 chef-graylog2
 =============
 
-graylog2 cookbook
+this is a test suite for build up graylog2 via chef cookbook
